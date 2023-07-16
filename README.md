@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unit 4 Challenge: Console Finances
 
 ## Overview
@@ -95,3 +96,6 @@ You are required to submit BOTH of the following for review:
 ## Copyright
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+=======
+# Console-Finances
+>>>>>>> 89bf1632533d6c472f4a6b437710f7908aff3ac7
