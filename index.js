@@ -202,7 +202,7 @@ for (var i = 0; i < finances.length; i++) {
     const previousProfitLoss = finances[i - 1][1];
     const change = currentProfitLoss - previousProfitLoss;
 
-    // Calculate change total
+    // Calculating change total
     changeTotal += change;
 
     // Check for greatest increase in Profit/Losses

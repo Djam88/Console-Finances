@@ -1,101 +1,37 @@
-<<<<<<< HEAD
-# Unit 4 Challenge: Console Finances
+# Financial Analysis
 
-## Overview
+This JavaScript code analyzes a dataset of profit/loss records to calculate various financial metrics. It performs the following calculations:
 
-In this challenge, you'll be using the concepts you've learned to complete the required activity. This activity presents a real-world situation in which your newfound JavaScript skills will come in handy. You are tasked with creating code for analyzing the financial records of a company. You have been provided with a financial dataset in the `starter/index.js` file.
+- Total number of months included in the dataset
+- Net total amount of profit/losses over the entire period
+- Average change in profit/losses over the entire period
+- Greatest increase in profit/losses (date and amount) over the entire period
+- Greatest decrease in profit/losses (date and amount) over the entire period
 
-## Instructions
+## Dataset
 
-1. Create a new GitHub repo called `Console-Finances`. Then, clone it to your computer.
+The dataset used for analysis is an array of objects, with each object representing a record. Each record has two fields: `Date` and `ProfitLoss`.
 
-2. Copy the starter files in your local git repository.
+## Usage
 
-You have been given a dataset composed of arrays with two fields, Date and Profit/Losses.
+1. Modify the `dataset` array in the code to contain the actual profit/loss records you want to analyze.
 
-Your task is to write JavaScript code that analyzes the records to calculate each of the following:
+2. Open the HTML file that includes this JavaScript code in a web browser.
 
-* The total number of months included in the dataset.
+3. Open the browser's developer console.
 
-* The net total amount of Profit/Losses over the entire period.
+4. The output of the analysis will be printed in the console.
 
-* The average of the **changes** in Profit/Losses over the entire period.
-  * You will need to track what the total change in Profit/Losses are from month to month and then find the average.
-  * (`Total/(Number of months - 1)`)
+## Example Output
 
-* The greatest increase in Profit/Losses (date and amount) over the entire period.
+## Financial Analysis
 
-* The greatest decrease in Profit/Losses (date and amount) over the entire period.
+Total Months: 86
+Total: $38382578
+Average Change: -$2315.12
+Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
+Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
 
-When you open your code in the browser your resulting analysis should look similar to the following:
+## License
 
-  ```text
-  Financial Analysis 
-  ----------------
-  Total Months: 86
-  Total: $38382578
-  Average Change: -2315.12
-  Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
-  Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
-  ```
-
-Your final code should print the analysis to the console.
-
-**Hints:**
-
-* You will need to do some research on your own for this project!
-
-* Remember, in order to combine strings and variables in the console you will need to use **concatenation**.
-
-* How do you only print to the nearest 100th in JavaScript?
-
-## Grading Requirements
-
-This homework is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Repository Quality: 23%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for variable naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-### Application Quality: 5%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
----
-
-## Copyright
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-=======
-# Console-Finances
->>>>>>> 89bf1632533d6c472f4a6b437710f7908aff3ac7
+This code is licensed under the MIT license.
