@@ -10,7 +10,7 @@ This JavaScript code analyzes a dataset of profit/loss records to calculate vari
 
 ## Dataset
 
-The dataset used for analysis is an array of objects, with each object representing a record. Each record has two fields: `Date` and `ProfitLoss`.
+The dataset used for analysis is an array of monthly financial records for a period between Jan 2010-Feb 2017. Each record consists of two fields: `Date` and `ProfitLoss`.
 
 ## Usage
 
