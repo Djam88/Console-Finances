@@ -14,13 +14,11 @@ The dataset used for analysis is an array of monthly financial records for a per
 
 ## Usage
 
-1. Modify the `dataset` array in the code to contain the actual profit/loss records you want to analyze.
+1.  Open the attached link here in a web browser: https://djam88.github.io/Console-Finances/
 
-2. Open the HTML file that includes this JavaScript code in a web browser.
+2.  Open the browser's developer console.
 
-3. Open the browser's developer console.
-
-4. The output of the analysis will be printed in the console.
+3.  The output of the analysis will be displayed in the console.
 
 ## Output Result
 
