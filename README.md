@@ -1,4 +1,4 @@
-# Financial Analysis
+# Financial Records Analysis
 
 This JavaScript code analyzes a dataset of profit/loss records to calculate various financial metrics. It performs the following calculations:
 
