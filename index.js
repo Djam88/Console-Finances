@@ -219,7 +219,7 @@ for (var i = 0; i < finances.length; i++) {
   }
 }
 
-// Calculate average change
+// Calculating average change
 const averageChange = changeTotal / (totalMonths - 1);
 
 // Print the analysis results
